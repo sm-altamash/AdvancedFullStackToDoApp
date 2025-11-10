@@ -1,0 +1,61 @@
+# Composer / PHP
+/vendor/
+/composer.lock
+/.phpunit.result.cache
+/.idea/
+/.vscode/
+/nbproject/
+
+# Laravel common (if you later add full Laravel parts)
+.env
+/.env.*
+/storage/
+/bootstrap/cache/
+/public/storage
+Homestead.json
+Homestead.yaml
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+/public/hot
+
+# Docker
+docker-compose.override.yml
+**/docker/.env
+**/docker/*-secrets/*
+**/docker/*-env/*
+*.log
+
+# PHPStorm, VSCode, editor backups
+*.sublime-workspace
+*.sublime-project
+*.swp
+*~ 
+.DS_Store
+Thumbs.db
+
+# Build / coverage
+/vendor/
+/coverage/
+/build/
+phpunit.xml
+phpunit.xml.dist
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials, cookies, sensitive
+cookies.txt
+*.pem
+*.key
+*.crt
+
+# Logs
+*.log
+storage/logs/*.log
+
+# Misc
+.env.local
+.env.testing
+.env.production
